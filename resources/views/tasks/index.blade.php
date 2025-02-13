@@ -48,7 +48,7 @@
 
                     <a href="{{ route('tasks.edit', ['id' => $task->id]) }}">Edit</a>
 
-                  </div>
+                </div>
             </div>
         @endforeach
-@endsection
+    @endsection
